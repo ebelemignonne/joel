@@ -1,0 +1,266 @@
+@media screen and (min-width: 601px) {
+    
+}
+
+
+
+
+
+
+@media screen and (max-width: 600px) {
+    /*Proprietées*/
+    .center{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .between{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .evenly{
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    .around{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .column{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    .row{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+    .around{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .bouton-O{
+        border: 0.2vw solid #FFB633;
+        font-size: 1vw;
+        border-radius: 5px;
+        padding: 0.5vw 2vw;
+        background-color: transparent;
+    }
+    .bouton-F{
+        border: 0.2vw solid #FFB633;
+        font-size: 1vw;
+        border-radius: 5px;
+        padding: 0.5vw 2vw;
+        background-color: #FFB633;
+        color: #fff;
+    }
+
+    .rectangle1{
+        height: 60vw;
+        width: 50vw;
+        position: relative;
+        border: 1vw solid #FFB633;
+    }
+    .rectangle2{
+        height: 30vw;
+        width: 80vw;
+        display: flex;
+        align-items: flex-start;
+        padding-left: 4vw;
+        border: 1px solid white;
+        border-radius: 2vw;
+    }
+
+
+
+    /*text*/
+.yellow{
+    color: #FFB633;
+}
+.black{
+    color: #000;
+    font-size: 1.5vw;
+}
+.white-h2{
+    color: #fff;
+    font-size: 3vw;
+}
+.white{
+    color: #fff;
+    font-size: 1.5vw;
+}
+.title{
+    font-size: 3vw;
+}
+/*end proprietées*/
+
+
+
+/*star header*/
+.nave{
+    justify-content: space-evenly;
+    height: 10vw;
+    width: 100vw;
+    padding-top: 2px;
+    align-items: center;
+    background-color: #1A2B3C;
+    position: fixed;
+    top: 0px;
+    z-index: 1;
+}
+ul{
+   height: 80%; 
+   width: 80vw;
+   align-items: center;
+}
+ul li{
+    height: 50%;
+    width: 20vw;
+    list-style-type: none;
+    text-align: center;
+}
+ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 1.5vw;
+}
+.button-nav{
+    padding: 1.5vw;
+}
+.acceuille{
+    height: 120vw;
+    width: 100vw;
+}
+.header-g {
+    height: 120vw;
+    width: 65vw;
+    background-color: #16163E;
+}
+.header-d {
+    height: 120vw;
+    width: 35vw;
+    position: relative;
+    background-color:  #FFB633;
+}
+.img-head{
+    height: 50vw;
+    position: absolute;
+    left: -13vw;
+    top: 30vw;
+    border: 1px solid white;
+
+}
+
+.text-header{
+    align-items: flex-start;
+    position: relative;
+    left: -5vw;
+    padding-left: 2vw;
+    border: 1px dotted teal ;
+    top: -17vw;
+    height: 25vw;
+    width: 40vw;
+}
+/*end header*/
+
+
+/*star a propos*/
+.a-propos{
+    height: 120vw;
+    width: 100vw;
+    position: relative;
+    top: -28vw;
+    border-radius: 8vw;
+    background-color: #000;
+}
+.prop-a{
+    position: relative;
+    top: -18vw;
+    right: -25vw;
+}
+.prop-b {
+    background-image: url(image/Nacteur.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    left: -1vw;
+    top: -4vw;
+}
+.prop-text{
+    height: 30vw;
+    width: 45%;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    position: relative;
+    border: solid whitesmoke;
+    left: -25vw;
+    bottom: -35vw;
+    padding-left: 2vw;
+}
+/*end a propos*/
+
+
+
+/*star services*/
+.block{
+    height: 200vw;
+    width: 100vw;
+    position: relative;
+    top: -50vw;
+    z-index: -1;
+    background-color: #16163E;
+}
+.BLOCK{
+    height: 130vw;
+    width: 100%;
+    justify-content: space-between;
+    flex-direction: column;
+}
+.h2-block{
+    position: relative;
+    bottom: -25vw;
+    left: -35vw;
+}
+.hr-block{
+    width: 5vw;
+    background-color: #FFB633;
+    position: relative;
+    bottom: -10vw;
+    left: -37.5vw;
+}
+.block-A{
+    height: 65vw;
+    width: 100%;
+}
+.block-A1{
+    position: relative;
+    top: -1vw;
+}
+.block-B{
+    height: 65vw;
+    width: 100%;
+}
+/*end services*/
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
