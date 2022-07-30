@@ -1,5 +1,29 @@
 @media screen and (min-width: 601px) {
+    .img-1{
+        background-image: url(image/Travaux1.jpeg);
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
     
+    .img-2{
+        background-image: url(image/Travaux2.jpeg);
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    
+    .img-3{
+        background-image: url(image/Travaux3.PNG);
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    .cadre-h1{
+        position: relative;
+        right: -22vw;
+        border: 0.5vw solid white;
+        height: 5vw;
+        width: 35vw;
+    }
 }
 
 
