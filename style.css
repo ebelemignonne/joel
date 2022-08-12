@@ -77,7 +77,7 @@ html, body{
 .rectangle{
     height: 18vw;
     width: 22vw;
-    border: 1px solid white; 
+    border: 1px solid white;
 }
 .rond1{
     height: 5vw;
@@ -92,7 +92,7 @@ html, body{
  ul > li:hover{
     height: 50%;
     width: 20vw;
-    background-color: #000000;
+    background-color: #555555;
     padding: 2vw 0;
     transition: 1s;
 }
@@ -106,13 +106,18 @@ li > a::after {
     transition:width 1s;
 }
 li > a:hover {
-    letter-spacing: 2px;
-    font-size: 2vw;
     color:white;
     transition: 0.5s;
 }
 li:hover > a::after {
     width: 100%;
+}
+
+.rectangle:hover{
+    height: 20vw;
+    width: 24vw;
+    transition: 1s;
+    cursor: pointer;
 }
 
 
@@ -131,7 +136,7 @@ li:hover > a::after {
 }
 .white{
     color: #fff;
-    font-size: 1.5vw;
+    font-size: 1vw;
 }
 .title{
     font-size: 3vw;
@@ -146,7 +151,7 @@ li:hover > a::after {
     width: 100vw;
     padding-top: 2px;
     align-items: center;
-    background-color: #1A2B3C;
+    background-color: #597177;
     position: fixed;
     top: 0px;
     z-index: 1;
@@ -167,23 +172,29 @@ ul li a{
     color: white;
     font-size: 1.5vw;
 }
+.haut{
+    position: relative;
+    top: -5vw
+}
 .button-nav{
     padding: 1.5vw;
+    text-decoration: none;
 }
 .acceuille{
-    height: 90vw;
+    height: 150vw;
     width: 100vw;
+    background-color:#f7d492;
 }
 .header-g {
     height: 90vw;
     width: 50vw;
-    background-color: #16163E;
+    background-color: #555555;
 }
 .header-d {
     height: 90vw;
     width: 50vw;
     position: relative;
-    background-color:  #FFB633;
+    background-color:  #f7d492;
 }
 .img-head{
     height: 50vw;
@@ -207,8 +218,8 @@ ul li a{
     height: 60vw;
     width: 100vw;
     position: relative;
-    top: -28vw;
-    border-radius: 15vw;
+    top: -30vw;
+    border-radius: 10vw;
     background-color: #000;
 }
 .prop-b {
@@ -231,28 +242,90 @@ ul li a{
 }
 /*end a propos*/
 
+.h1_comp{
+    transform: translateY(-15vw);
+    text-decoration:underline;
+    cursor: pointer;
+
+
+}
+.h1_comp:hover{
+    background-color: #2160a0;
+    width: 100%;
+    text-align: center;
+    padding: 1vw;
+    transition: 1s;
+}
+.p_comp{
+    transform: translateY(-12vw);
+    background-color: #555555;
+    width: 100vw;
+    padding: 2px;
+    text-align: center;
+    cursor: pointer;
+}
+.p_comp:hover{
+    background-color: #2160a0;
+    padding: 1vw;
+    transition: 1s;
+    letter-spacing: 1.5vw;
+}
+
+.mes_competences{
+    height: 30vw;
+    width: 100vw;
+    background-color: #1A2B3C;
+}
+
+.Mes_formations{
+    height: 12vw;
+    background-color: #1A2B3C;
+}
+.li1_formation{
+    width: 50%;
+    text-align: center;
+}
+.li_formation{
+    width: 50%;
+    text-align: center;
+}
+.ul_formation{
+    height: 80%;
+    width: 100%;
+    cursor: pointer;
+}
+
+ .li_formation:hover{
+    background-color:brown;
+    font-size: 2vw;
+    padding: 2vw 0;
+    letter-spacing: 0.2vw;
+    text-decoration: underline;
+    transition: 1s;
+}
+ .li1_formation:hover{
+    background-color:brown;
+    font-size: 2vw;
+    padding: 2vw 0;
+    letter-spacing: 0.2vw;
+    text-decoration: underline;
+    transition: 1s;
+ }
 
 /*star services*/
 .block{
-    height: 100vw;
+    height: 70vw;
     width: 100vw;
     position: relative;
-    top: -50vw;
     z-index: -1;
-    background-color: #16163E;
+    background-color: #555555;
 }
 .h2-block{
     position: relative;
-    bottom: -17vw;
     left: -35vw;
+    text-decoration: underline;
 }
-.hr-block{
-    width: 5vw;
-    background-color: #FFB633;
-    position: relative;
-    bottom: -7vw;
-    left: -36.5vw;
-}
+
 .block-A{
     height: 55vw;
     width: 50vw;
@@ -267,67 +340,75 @@ ul li a{
 
 /*star realisation*/
 .realisation{
-    height: 100vw;
+    height: 55vw;
     width: 100vw;
-    background-color: #000000;
+    background-color: #d2d2d2;
     position: relative;
-    top: -50vw;
 }
 .real-A{
     height: 50vw;
-    width: 100%;
+    width: 100vw;
+    background-color:#597177 ;
+}
+.cadre-h1{
+    transform: translate(-22vw, -2vw);
 }
 .real-A1{
     height: 40vw;
-    width: 80vw;
+    width: 100vw;
 }
 .ima-real{
     height: 25vw;
     width: 100%;
     position: relative;
-    bottom: -9vw;
     border: 0.1vw dotted white;
     justify-content: space-around;
-}
-.petit-joel{
-    position: relative;
-    top: -19vw;
-    height: 20vw;
-    border: 0.5vw solid #fff;
 }
 .h1-real{
     position: relative;
     top: -2vw;
-    right: -55vw;
 }
 .hr-foot{
     background-color: #fff;
     position: relative;
-}
-.real-B{
-    height: 30vw;
-    width: 100%;
-    background-color: #6c5f48;
 }
 .fa-solid{
     color: #fff;
     height: 2vw;
 }
 
-.rond1, .rond2 {
-    position: relative;
-    bottom: -10vw;
-    right: -1vw;
-}
+
 /*end realisation*/
 
 
+/*start footer*/
+footer{
+    height: 5vw;
+}
+
+/*end footer*/
 
 
+/*css formulaire*/
 
+.body2{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
+.section_form{
+    height: 60vh;
+    width: 60vw;
+    border: 1px solid black;
+    border-radius: 10px;
+}
 
-
-
-
+.message_form{
+    height: 20vw;
+    width: 60vw;
+    background-color: #dea1a1;
+}
 
