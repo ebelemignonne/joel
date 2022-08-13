@@ -130,11 +130,11 @@
 /*star header*/
 .nave{
     justify-content: space-evenly;
-    height: 10vw;
+    height: 8vw;
     width: 100vw;
     padding-top: 2px;
     align-items: center;
-    background-color: #1A2B3C;
+    background-color: #597177;
     position: fixed;
     top: 0px;
     z-index: 1;
@@ -155,124 +155,245 @@ ul li a{
     color: white;
     font-size: 1.5vw;
 }
+.haut{
+    position: relative;
+    top: -5vw
+}
 .button-nav{
     padding: 1.5vw;
+    text-decoration: none;
 }
 .acceuille{
-    height: 120vw;
+    height: 150vw;
     width: 100vw;
+    background-color:#f7d492;
 }
 .header-g {
-    height: 120vw;
-    width: 65vw;
-    background-color: #16163E;
+    height: 90vw;
+    width: 50vw;
+    background-color: #555555;
 }
 .header-d {
-    height: 120vw;
-    width: 35vw;
+    height: 90vw;
+    width: 50vw;
     position: relative;
-    background-color:  #FFB633;
+    background-color:  #f7d492;
 }
 .img-head{
     height: 50vw;
     position: absolute;
     left: -13vw;
-    top: 30vw;
-    border: 1px solid white;
+    top: 15vw;
 
 }
 
 .text-header{
     align-items: flex-start;
     position: relative;
-    left: -5vw;
-    padding-left: 2vw;
-    border: 1px dotted teal ;
-    top: -17vw;
-    height: 25vw;
-    width: 40vw;
+    top: -10vw;
+
 }
 /*end header*/
 
 
 /*star a propos*/
 .a-propos{
-    height: 120vw;
+    height: 60vw;
     width: 100vw;
     position: relative;
-    top: -28vw;
-    border-radius: 8vw;
+    top: -30vw;
+    border-radius: 10vw;
     background-color: #000;
-}
-.prop-a{
-    position: relative;
-    top: -18vw;
-    right: -25vw;
 }
 .prop-b {
     background-image: url(image/Nacteur.jpeg);
     background-size: cover;
     background-repeat: no-repeat;
-    left: -1vw;
+    left: 2vw;
     top: -4vw;
 }
 .prop-text{
-    height: 30vw;
+    height: 20vw;
     width: 45%;
     display: flex;
     justify-content: space-evenly;
     flex-direction: column;
     position: relative;
     border: solid whitesmoke;
-    left: -25vw;
-    bottom: -35vw;
+    right: -10vw;
     padding-left: 2vw;
 }
 /*end a propos*/
 
+.h1_comp{
+    transform: translateY(-15vw);
+    text-decoration:underline;
+    cursor: pointer;
 
+
+}
+.h1_comp:hover{
+    background-color: #2160a0;
+    width: 100%;
+    text-align: center;
+    padding: 1vw;
+    transition: 1s;
+}
+.p_comp{
+    transform: translateY(-12vw);
+    background-color: #555555;
+    width: 100vw;
+    padding: 2px;
+    text-align: center;
+    cursor: pointer;
+}
+.p_comp:hover{
+    background-color: #2160a0;
+    padding: 1vw;
+    transition: 1s;
+    letter-spacing: 1.5vw;
+}
+
+.mes_competences{
+    height: 30vw;
+    width: 100vw;
+    background-color: #1A2B3C;
+}
+
+.Mes_formations{
+    height: 12vw;
+    background-color: #1A2B3C;
+}
+.li1_formation{
+    width: 50%;
+    text-align: center;
+}
+.li_formation{
+    width: 50%;
+    text-align: center;
+}
+.ul_formation{
+    height: 80%;
+    width: 100%;
+    cursor: pointer;
+}
+
+ .li_formation:hover{
+    background-color:brown;
+    font-size: 2vw;
+    padding: 2vw 0;
+    letter-spacing: 0.2vw;
+    text-decoration: underline;
+    transition: 1s;
+}
+ .li1_formation:hover{
+    background-color:brown;
+    font-size: 2vw;
+    padding: 2vw 0;
+    letter-spacing: 0.2vw;
+    text-decoration: underline;
+    transition: 1s;
+ }
 
 /*star services*/
 .block{
-    height: 200vw;
+    height: 70vw;
     width: 100vw;
     position: relative;
-    top: -50vw;
     z-index: -1;
-    background-color: #16163E;
-}
-.BLOCK{
-    height: 130vw;
-    width: 100%;
-    justify-content: space-between;
-    flex-direction: column;
+    background-color: #555555;
 }
 .h2-block{
     position: relative;
-    bottom: -25vw;
     left: -35vw;
+    text-decoration: underline;
 }
-.hr-block{
-    width: 5vw;
-    background-color: #FFB633;
-    position: relative;
-    bottom: -10vw;
-    left: -37.5vw;
-}
+
 .block-A{
-    height: 65vw;
-    width: 100%;
-}
-.block-A1{
-    position: relative;
-    top: -1vw;
+    height: 55vw;
+    width: 50vw;
 }
 .block-B{
-    height: 65vw;
-    width: 100%;
+    height: 55vw;
+    width: 50vw;
 }
 /*end services*/
 
+
+
+/*star realisation*/
+.realisation{
+    height: 55vw;
+    width: 100vw;
+    background-color: #d2d2d2;
+    position: relative;
+}
+.real-A{
+    height: 50vw;
+    width: 100vw;
+    background-color:#597177 ;
+}
+.cadre-h1{
+    transform: translate(-22vw, -2vw);
+}
+.real-A1{
+    height: 40vw;
+    width: 100vw;
+}
+.ima-real{
+    height: 25vw;
+    width: 100%;
+    position: relative;
+    border: 0.1vw dotted white;
+    justify-content: space-around;
+}
+.h1-real{
+    position: relative;
+    top: -2vw;
+}
+.hr-foot{
+    background-color: #fff;
+    position: relative;
+}
+.fa-solid{
+    color: #fff;
+    height: 2vw;
+}
+
+
+/*end realisation*/
+
+
+/*start footer*/
+footer{
+    height: 5vw;
+}
+
+/*end footer*/
+
+
+/*css formulaire*/
+
+.body2{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section_form{
+    height: 60vh;
+    width: 60vw;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+.message_form{
+    height: 20vw;
+    width: 60vw;
+    background-color: #dea1a1;
+}
 
 
 }

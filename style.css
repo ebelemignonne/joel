@@ -147,7 +147,7 @@ li:hover > a::after {
 /*star header*/
 .nave{
     justify-content: space-evenly;
-    height: 10vw;
+    height: 8vw;
     width: 100vw;
     padding-top: 2px;
     align-items: center;
