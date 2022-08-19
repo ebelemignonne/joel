@@ -240,6 +240,12 @@ ul li a{
     right: -10vw;
     padding-left: 2vw;
 }
+
+.bout-prop-1,
+.bout-prop-2{
+    cursor: pointer;
+}
+
 /*end a propos*/
 
 .h1_comp{
