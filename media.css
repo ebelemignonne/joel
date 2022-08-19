@@ -24,6 +24,7 @@
         height: 5vw;
         width: 35vw;
     }
+
 }
 
 
@@ -31,7 +32,7 @@
 
 
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 800px) {
     /*Proprietées*/
     .center{
         display: flex;
@@ -125,6 +126,14 @@
 }
 /*end proprietées*/
 
+
+.button-nav,
+.header-d {
+    display: none;
+}
+ul, li{
+    display: none;
+}
 
 
 /*star header*/
@@ -394,6 +403,7 @@ footer{
     width: 60vw;
     background-color: #dea1a1;
 }
+
 
 
 }
